@@ -1,0 +1,170 @@
+/* Desktop */
+
+.main-container {
+    max-width: 882px;
+    background-color: #972927;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.head-container {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.head-container > div {
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 115px;
+}
+
+.head-container > div > h1 {
+    font-family:'PT Serif', serif;;
+    font-size: 76px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+}
+
+.head-container > div > img {
+    width: 230px;
+    height: 230px;
+}
+
+.navigation {
+    display: grid;
+    width: 75%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 22px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.navigation > a > div {
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0px auto;
+    border: 5px solid rgb(0, 0, 0);
+    width: 85%;
+    height: 250px;
+}
+
+.navigation > a {
+    cursor: not-allowed;
+}
+
+.navigation > a:nth-child(3) {
+    cursor: pointer;
+}
+
+.navigation > a > div span {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.navigation > a > div > img {
+    width: 200px;
+    height: 200px;
+    place-self: center;
+}
+
+
+/* Tablet */
+
+@media screen and (min-width: 501px) and (max-width: 715px) {
+    .head-container > div {
+        grid-gap: 50px;
+    }
+
+    .head-container > div > h1 {
+        font-size: 64px;
+    }
+
+    .head-container > div > img {
+        width: 214px;
+        height: 214px;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    .navigation > a > div {
+        padding: 10px;
+        height: 215px;
+    }
+
+    .navigation > a > div span {
+        font-size: 22px;
+    }
+    
+    .navigation > a > div > img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 500px) {
+    .main-container {
+        padding: 10px 12px 20px 12px;
+    }
+
+    .head-container > div {
+        grid-gap: 25px;
+        height: 140px;
+    }
+
+    .head-container > div > h1 {
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .head-container > div > img {
+        width: 160px;
+        height: 170px;
+    }
+
+    .navigation {
+        width: 100%;
+        grid-gap: 0 12px;
+    }
+
+    .navigation > a > div {
+        padding: 8px;
+        height: 200px;
+    }
+
+    .navigation > a:nth-child(even) {
+        margin-top: 20px;
+    }
+
+    .navigation > a > div span {
+        font-size: 18px;
+    }
+    
+    .navigation > a > div > img{
+        width: 122px;
+        height: 124px;
+    }
+}
