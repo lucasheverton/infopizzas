@@ -1,10 +1,8 @@
 // index 
-function screenUndefined() {
-    alert ("Tela indisponível no momento ;(")
-}
+//window.location = document.URL.replace('.html','');
 
 // minhas informações
 
-function enviarInfomacoes() {
-    alert("Suas informações foram salvas :)");
+function indisponivel() {
+    alert("Tela Indisponível no momento :(");
 }

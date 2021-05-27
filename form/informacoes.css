@@ -84,9 +84,17 @@ input {
   border-radius: 10px;
 }
 
+.btn:hover {
+  background-color: #731d0d;
+}
+
+.btn:active {
+  box-shadow: 4px 6px 15px #000;
+}
+
 /* Mobile */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   
   .header-container > a > div > img {
     width: 86px;
