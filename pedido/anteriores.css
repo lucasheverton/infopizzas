@@ -61,7 +61,8 @@ main > ul {
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 25px;
+    grid-gap: 0px;
+    justify-items: center;
     margin-top: 25px;
 }
   
