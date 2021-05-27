@@ -4,5 +4,5 @@
 // minhas informações
 
 function indisponivel() {
-    alert("Tela Indisponível no momento :(");
+    alert("Tela Indisponível no momento :( ");
 }
