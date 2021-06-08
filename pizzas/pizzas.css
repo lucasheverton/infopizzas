@@ -42,6 +42,16 @@ span {
 ul {
     list-style-type: none;
 }
+<<<<<<< HEAD
+=======
+a:link 
+{ 
+ text-decoration:none; 
+} 
+a {
+    color: #000;
+}
+>>>>>>> 62e83caf940a9fb1a2fc9ede4032d0bc237cf708
 
 
 
