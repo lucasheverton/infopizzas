@@ -42,6 +42,13 @@ span {
 ul {
     list-style-type: none;
 }
+a:link 
+{ 
+ text-decoration:none; 
+} 
+a {
+    color: #000;
+}
 
 
 

@@ -14,7 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/ask.ico" type="image/x-icon">
   </head>
-
+  <script>
+    function fun() {
+    alert("Pedido adicionado");
+    }
+    </script>
   <body>
 
     <div class="main-container">
@@ -29,11 +33,11 @@
         <p>Selecione seu pedido:</p>
         
         <ul>
-            <li>Calabresa<br>Calabresa com cebla.</li>
-            <li>Frango<br>Frango com catupiry.</li>
-            <li>Frango<br>Frango com cheddar.</li>
-            <li>Paulista<br>Calabresa com catuíry.</li>
-            <li>Mussarela<br>Mussarela e tomate.</li>
+          <a href="../pizzas/NovosPedidos.html"><li>Calabresa<br>Calabresa com cebla.</li></a>                      
+          <li onclick = "fun()">Frango<br>Frango com catupiry.</li>
+            <li onclick = "fun()">Frango<br>Frango com cheddar.</li>
+            <li onclick = "fun()">Paulista<br>Calabresa com catuíry.</li>
+            <li onclick = "fun()">Mussarela<br>Mussarela e tomate.</li>
         </ul>
           
 
@@ -46,7 +50,6 @@
             </a>
           </div>
       </main>
-  </div>
-
+  </div>  
   </body>
 </html>
