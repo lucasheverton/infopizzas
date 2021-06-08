@@ -1,0 +1,60 @@
+.main-container {
+    text-align: center;
+}
+.titulo_img {
+    display: inline-flex;
+}
+.header-container {
+    display: inline-flex;
+    text-align: center ;
+}
+.img_pizza {
+    width: 100px;
+}
+.buttons {
+    display: block;
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: #710101;
+    border: 4px solid #000;
+    color: #FFF;
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #731d0d;
+}
+
+.btn:active {
+    box-shadow: 4px 6px 15px #000;
+}
+span {
+    margin-left: 125px;
+}
+ul {
+    list-style-type: none;
+}
+
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+
+   
+
+    .btn {
+        width: 140px;
+        height: 65px;
+        font-size: 24px;
+    }
+}
