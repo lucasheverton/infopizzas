@@ -59,6 +59,16 @@ main > ul {
     cursor: pointer;
 }
 
+.main-box li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.main-box li a:hover {
+    text-decoration: underline;
+}
+
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
